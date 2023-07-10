@@ -1,7 +1,7 @@
 <?php
 include("config.php");
 
-$sql="SELECT * FROM user";
+$sql="SELECT * FROM attendance";
 $result=mysqli_query($con,$sql);
 $num_row = mysqli_num_rows($result);
 $list=array();

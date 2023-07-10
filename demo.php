@@ -33,8 +33,8 @@ $(document).ready(function(){
 			   console.log(data);
                var html="";
                for(var i=0; i<data.length;i++){
-                var empid=data[i].empid.toUpperCase();
-                var name=data[i].name.toUpperCase();
+                var empid=data[i].name.toUpperCase();
+                var name=data[i].text.toUpperCase();
 
                html  +="<tr>";
                html  +="<td >"+empid+"</td>";
